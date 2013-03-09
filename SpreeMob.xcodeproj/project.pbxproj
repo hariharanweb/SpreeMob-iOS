@@ -18,7 +18,14 @@
 		846286CA16E1020F00473A46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 846286C916E1020F00473A46 /* Default-568h@2x.png */; };
 		846286CD16E1020F00473A46 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846286CB16E1020F00473A46 /* MainStoryboard_iPhone.storyboard */; };
 		846286D016E1020F00473A46 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846286CE16E1020F00473A46 /* MainStoryboard_iPad.storyboard */; };
-		846286D316E1020F00473A46 /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846286D216E1020F00473A46 /* HTViewController.m */; };
+		8489094416EB98FC00028B4D /* HTProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489094316EB98FC00028B4D /* HTProductList.m */; };
+		8489095C16EBA1DF00028B4D /* ConnectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489095316EBA1DF00028B4D /* ConnectionData.m */; };
+		8489095D16EBA1DF00028B4D /* ConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489095516EBA1DF00028B4D /* ConnectionHandler.m */; };
+		8489095E16EBA1DF00028B4D /* JSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489095716EBA1DF00028B4D /* JSONObject.m */; };
+		8489095F16EBA1DF00028B4D /* RestRequestCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489095916EBA1DF00028B4D /* RestRequestCreator.m */; };
+		8489096016EBA1DF00028B4D /* URLMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489095B16EBA1DF00028B4D /* URLMap.m */; };
+		8489096A16EBA29300028B4D /* HTProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489096916EBA29300028B4D /* HTProductCell.m */; };
+		8489096E16EBA2BD00028B4D /* HTProductListingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489096D16EBA2BD00028B4D /* HTProductListingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +44,26 @@
 		846286C916E1020F00473A46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		846286CC16E1020F00473A46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		846286CF16E1020F00473A46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		846286D116E1020F00473A46 /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
-		846286D216E1020F00473A46 /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
+		8489094216EB98FC00028B4D /* HTProductList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTProductList.h; path = model/HTProductList.h; sourceTree = "<group>"; };
+		8489094316EB98FC00028B4D /* HTProductList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTProductList.m; path = model/HTProductList.m; sourceTree = "<group>"; };
+		8489095216EBA1DF00028B4D /* ConnectionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionData.h; sourceTree = "<group>"; };
+		8489095316EBA1DF00028B4D /* ConnectionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionData.m; sourceTree = "<group>"; };
+		8489095416EBA1DF00028B4D /* ConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionHandler.h; sourceTree = "<group>"; };
+		8489095516EBA1DF00028B4D /* ConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionHandler.m; sourceTree = "<group>"; };
+		8489095616EBA1DF00028B4D /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
+		8489095716EBA1DF00028B4D /* JSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONObject.m; sourceTree = "<group>"; };
+		8489095816EBA1DF00028B4D /* RestRequestCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestRequestCreator.h; sourceTree = "<group>"; };
+		8489095916EBA1DF00028B4D /* RestRequestCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestRequestCreator.m; sourceTree = "<group>"; };
+		8489095A16EBA1DF00028B4D /* URLMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMap.h; sourceTree = "<group>"; };
+		8489095B16EBA1DF00028B4D /* URLMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLMap.m; sourceTree = "<group>"; };
+		8489096116EBA22600028B4D /* NetworkError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkError.h; sourceTree = "<group>"; };
+		8489096216EBA22600028B4D /* NetworkError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkError.m; sourceTree = "<group>"; };
+		8489096816EBA29300028B4D /* HTProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTProductCell.h; sourceTree = "<group>"; };
+		8489096916EBA29300028B4D /* HTProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTProductCell.m; sourceTree = "<group>"; };
+		8489096C16EBA2BD00028B4D /* HTProductListingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTProductListingController.h; sourceTree = "<group>"; };
+		8489096D16EBA2BD00028B4D /* HTProductListingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTProductListingController.m; sourceTree = "<group>"; };
+		8489096F16EBA2D700028B4D /* HTProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HTProduct.h; path = model/HTProduct.h; sourceTree = "<group>"; };
+		8489097016EBA2D700028B4D /* HTProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HTProduct.m; path = model/HTProduct.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +110,12 @@
 		846286B916E1020F00473A46 /* SpreeMob */ = {
 			isa = PBXGroup;
 			children = (
-				846286C216E1020F00473A46 /* HTAppDelegate.h */,
-				846286C316E1020F00473A46 /* HTAppDelegate.m */,
+				8489096B16EBA2BD00028B4D /* controller */,
+				8489096716EBA29300028B4D /* view */,
+				8489095116EBA1DF00028B4D /* connectionHandler */,
+				8489094116EB98D300028B4D /* model */,
 				846286CB16E1020F00473A46 /* MainStoryboard_iPhone.storyboard */,
 				846286CE16E1020F00473A46 /* MainStoryboard_iPad.storyboard */,
-				846286D116E1020F00473A46 /* HTViewController.h */,
-				846286D216E1020F00473A46 /* HTViewController.m */,
 				846286BA16E1020F00473A46 /* Supporting Files */,
 			);
 			path = SpreeMob;
@@ -99,6 +124,8 @@
 		846286BA16E1020F00473A46 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				846286C216E1020F00473A46 /* HTAppDelegate.h */,
+				846286C316E1020F00473A46 /* HTAppDelegate.m */,
 				846286BB16E1020F00473A46 /* SpreeMob-Info.plist */,
 				846286BC16E1020F00473A46 /* InfoPlist.strings */,
 				846286BF16E1020F00473A46 /* main.m */,
@@ -108,6 +135,54 @@
 				846286C916E1020F00473A46 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8489094116EB98D300028B4D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8489096F16EBA2D700028B4D /* HTProduct.h */,
+				8489097016EBA2D700028B4D /* HTProduct.m */,
+				8489094216EB98FC00028B4D /* HTProductList.h */,
+				8489094316EB98FC00028B4D /* HTProductList.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		8489095116EBA1DF00028B4D /* connectionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				8489096116EBA22600028B4D /* NetworkError.h */,
+				8489096216EBA22600028B4D /* NetworkError.m */,
+				8489095216EBA1DF00028B4D /* ConnectionData.h */,
+				8489095316EBA1DF00028B4D /* ConnectionData.m */,
+				8489095416EBA1DF00028B4D /* ConnectionHandler.h */,
+				8489095516EBA1DF00028B4D /* ConnectionHandler.m */,
+				8489095616EBA1DF00028B4D /* JSONObject.h */,
+				8489095716EBA1DF00028B4D /* JSONObject.m */,
+				8489095816EBA1DF00028B4D /* RestRequestCreator.h */,
+				8489095916EBA1DF00028B4D /* RestRequestCreator.m */,
+				8489095A16EBA1DF00028B4D /* URLMap.h */,
+				8489095B16EBA1DF00028B4D /* URLMap.m */,
+			);
+			path = connectionHandler;
+			sourceTree = "<group>";
+		};
+		8489096716EBA29300028B4D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8489096816EBA29300028B4D /* HTProductCell.h */,
+				8489096916EBA29300028B4D /* HTProductCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8489096B16EBA2BD00028B4D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8489096C16EBA2BD00028B4D /* HTProductListingController.h */,
+				8489096D16EBA2BD00028B4D /* HTProductListingController.m */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +255,14 @@
 			files = (
 				846286C016E1020F00473A46 /* main.m in Sources */,
 				846286C416E1020F00473A46 /* HTAppDelegate.m in Sources */,
-				846286D316E1020F00473A46 /* HTViewController.m in Sources */,
+				8489094416EB98FC00028B4D /* HTProductList.m in Sources */,
+				8489095C16EBA1DF00028B4D /* ConnectionData.m in Sources */,
+				8489095D16EBA1DF00028B4D /* ConnectionHandler.m in Sources */,
+				8489095E16EBA1DF00028B4D /* JSONObject.m in Sources */,
+				8489095F16EBA1DF00028B4D /* RestRequestCreator.m in Sources */,
+				8489096016EBA1DF00028B4D /* URLMap.m in Sources */,
+				8489096A16EBA29300028B4D /* HTProductCell.m in Sources */,
+				8489096E16EBA2BD00028B4D /* HTProductListingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +395,7 @@
 				846286D816E1020F00473A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

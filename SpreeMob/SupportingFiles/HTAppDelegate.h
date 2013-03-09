@@ -1,5 +1,5 @@
 //
-//  HTViewController.h
+//  HTAppDelegate.h
 //  SpreeMob
 //
 //  Created by Hariharan Thiagarajan on 01/03/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTViewController : UIViewController
+@interface HTAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
